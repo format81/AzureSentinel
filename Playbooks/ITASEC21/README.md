@@ -1,4 +1,4 @@
-# Isolate-AzureStorageAccount
+# Azure Sentinel - SOAR Demo - ITASEC21
 authors: Antonio Formato & Rebecca Travasi
 
 Developed for ITASEC21 conference April 8th 2021: www.itasec.it
