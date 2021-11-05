@@ -60,7 +60,7 @@
                                 "configurations": {
                                     "tiIndicators": {
                                         "releaseCriteria": {
-                                            "messageCount": 100,
+                                            "messageCount": 100
                                             }
                                         }
                                     }
