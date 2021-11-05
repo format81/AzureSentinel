@@ -60,10 +60,7 @@
                                 "configurations": {
                                     "tiIndicators": {
                                         "releaseCriteria": {
-                                            "messageCount": 10,
-                                            "recurrence": {
-                                                "frequency": "Hour",
-                                                "interval": 1
+                                            "messageCount": 100
                                             }
                                         }
                                     }
