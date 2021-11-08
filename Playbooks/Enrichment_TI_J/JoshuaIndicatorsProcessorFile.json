@@ -47,8 +47,7 @@
             "Recurrence": {
               "recurrence": {
                 "frequency": "[parameters('RecurrenceFrequency')]",
-                "interval": "[parameters('RecurrenceInterval')]",
-                "startTime": "[parameters('RecurrenceStartTime')]"
+                "interval": "[parameters('RecurrenceInterval')]"
               },
               "evaluatedRecurrence": {
                 "frequency": "Hour",
