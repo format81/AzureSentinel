@@ -12,7 +12,7 @@
 	    "Playbook2Name": {
       "defaultValue": "Joshua-Import-To-Sentinel",
       "type": "string"
-    }
+    },
     "logicAppLocation": {
       "type": "string",
       "defaultValue": "[resourceGroup().location]",
