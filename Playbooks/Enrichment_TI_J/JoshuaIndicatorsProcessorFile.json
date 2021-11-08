@@ -86,7 +86,7 @@
                             "host": {
                               "triggerName": "Batch_messages",
                               "workflow": {
-                                "id": "/subscriptions/2ba1a2ae-d61c-47d5-bfcb-db23d1c5abce/resourceGroups/Sentinel/providers/Microsoft.Logic/workflows/Joshua-Import-To-Sentinel"
+								"id": "[concat('/subscriptions/', subscription().subscriptionId, '/resourceGroups/', resourceGroup().name, '/providers/Microsoft.Logic/workflows/', parameters('Playbook2Name'))]"
                               }
                             }
                           }
@@ -256,7 +256,6 @@
                     "host": {
                       "triggerName": "Batch_messages",
                       "workflow": {
-                        "id": "/subscriptions/2ba1a2ae-d61c-47d5-bfcb-db23d1c5abce/resourceGroups/Sentinel/providers/Microsoft.Logic/workflows/C19ImportToSentinel"
 						"id": "[concat('/subscriptions/', subscription().subscriptionId, '/resourceGroups/', resourceGroup().name, '/providers/Microsoft.Logic/workflows/', parameters('Playbook2Name'))]"
                       }
                     }
