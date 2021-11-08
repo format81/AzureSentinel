@@ -9,9 +9,9 @@
         "description": "Name of the Logic App."
       }
     },
-	    "Playbook2Name": {
-      "defaultValue": "Joshua-Import-To-Sentinel",
-      "type": "string"
+	"Playbook2Name": {
+    "defaultValue": "Joshua-Import-To-Sentinel",
+    "type": "string"
     },
     "logicAppLocation": {
       "type": "string",
